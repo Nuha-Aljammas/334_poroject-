@@ -1,0 +1,7 @@
+/* check boxes has general rule through the main.cc and this is a special case */
+
+input[type="checkbox"],
+input[type="radio"]{
+  opacity: 1!important;
+  -webkit-appearance: checkbox!important;
+}

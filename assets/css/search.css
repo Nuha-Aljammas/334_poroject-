@@ -1,0 +1,18 @@
+.bookListing:nth-child(even){
+  background-color: #dddddd;
+}
+
+.bookListing:nth-child(odd){
+  background-color: #FFFFFF;
+}
+
+.title{
+  /* float:left; */
+  /* clear:both; */
+}
+
+.author{
+  /* display:inline-block; */
+  /* float:right; */
+  /* clear:both; */
+}
