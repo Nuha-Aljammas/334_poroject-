@@ -21,7 +21,7 @@ class Connection
         return self::$instance;
     }
 
-    public static function insert(String $table, array $array)
+    public static function insert($table, $array)
     {
         $cols = "";
         $qmarks = "";
